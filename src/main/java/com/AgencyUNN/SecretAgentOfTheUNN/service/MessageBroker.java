@@ -8,6 +8,9 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 @Log4j
 public class MessageBroker {
@@ -27,15 +30,17 @@ public class MessageBroker {
     public void sortingMessages(Update update) {
         Message message = update.getMessage();
         if (message != null) {
-            SendMessage sendMessage;
+            List<SendMessage> sendMessages = new ArrayList<>();
             if (message.isCommand()) {
-                sendMessage = commandManager.sortingCommand(message);
+                sendMessages = commandManager.sortingCommand(message);
             } else if (message.hasText()) {
-                sendMessage = textManager.sortingText(message);
+                sendMessages = textManager.sortingText(message);
             } else {
-                sendMessage = messageGeneration(message.getChatId(), botMessageConfig.getUnidentifiedMessage());
+                sendMessages.add(messageGeneration(message.getChatId(), botMessageConfig.getUnidentifiedMessage()));
             }
-            telegramBot.sendMessage(sendMessage);
+            for (SendMessage sendMessage: sendMessages) {
+                telegramBot.sendMessage(sendMessage);
+            }
         } else {
             log.error("Unsupported massage type!");
         }

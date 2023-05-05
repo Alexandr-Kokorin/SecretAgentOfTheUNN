@@ -37,6 +37,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         messageBroker.sortingMessages(update);
+        log.debug("id: " + update.getMessage().getChatId() + ", text: " + update.getMessage().getText());
         /*String text = update.getMessage().getText();
         Long id = update.getMessage().getFrom().getId();
         log.debug("id: " + id + ", text: " + text);
