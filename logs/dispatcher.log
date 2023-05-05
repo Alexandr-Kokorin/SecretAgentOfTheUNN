@@ -1,6 +1,0 @@
-2023-05-02 19:44:57 DEBUG TelegramBot:33 - id: 753034790, text: Рро
-2023-05-02 19:49:30 DEBUG TelegramBot:33 - id: 753034790, text: Ооаам
-2023-05-02 20:20:31 DEBUG TelegramBot:41 - id: 753034790, text: Лора
-2023-05-04 20:29:43 ERROR TelegramBot:53 - Error sending the message!
-2023-05-04 20:29:59 ERROR TelegramBot:53 - Error sending the message!
-2023-05-04 20:35:35 ERROR MessageBroker:37 - Unsupported massage type!
