@@ -4,32 +4,3 @@
 2023-05-04 20:29:43 ERROR TelegramBot:53 - Error sending the message!
 2023-05-04 20:29:59 ERROR TelegramBot:53 - Error sending the message!
 2023-05-04 20:35:35 ERROR MessageBroker:37 - Unsupported massage type!
-2023-05-05 12:52:30 DEBUG TelegramBot:40 - id: 753034790, text: #Авторизация
-Логин: s21380208
-Пароль: 19032003kaa
-2023-05-05 14:15:38 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:16:59 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:17:43 DEBUG TelegramBot:40 - id: 753034790, text: /my_data
-2023-05-05 14:17:52 DEBUG TelegramBot:40 - id: 753034790, text: /zzz
-2023-05-05 14:20:15 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:20:57 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:22:33 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:40:08 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:41:53 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 14:44:11 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 15:23:11 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 15:23:29 DEBUG TelegramBot:40 - id: 753034790, text: #Авторизация
-Логин: s21380208
-Пароль: 19032003kaa
-2023-05-05 15:25:48 DEBUG TelegramBot:40 - id: 753034790, text: Hffvg
-2023-05-05 15:26:07 DEBUG TelegramBot:40 - id: 753034790, text: 💛
-2023-05-05 15:26:10 DEBUG TelegramBot:40 - id: 753034790, text: null
-2023-05-05 15:32:05 DEBUG TelegramBot:40 - id: 753034790, text: #Авторизация
-Логин: s21380208
-Пароль: qwerty123
-2023-05-05 15:32:33 DEBUG TelegramBot:40 - id: 753034790, text: /start
-2023-05-05 15:32:50 DEBUG TelegramBot:40 - id: 753034790, text: #Авторизация
-Логин: s21380208
-Пароль: 19032003kaa
-2023-05-05 15:33:47 DEBUG TelegramBot:40 - id: 753034790, text: Логин: s21380208
-Пароль: 19032003kaa
